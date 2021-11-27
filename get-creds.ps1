@@ -5,4 +5,5 @@ Write-Host $cred.UserName
 
 
 Get-WmiObject Win32_DiskDrive -ComputerName "forbe5" 
-Get-Process | FT
+Get-Process | Format-Table
+
